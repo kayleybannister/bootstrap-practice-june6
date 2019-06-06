@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Kayley Practicing with Bootstrap Using Class Example</title>
+
+  <!-- We link our html to the Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <!-- Container Div -->
+  <div class="container">
+
+    <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <!-- Our brand / logo -->
+      <a class="navbar-brand" href="#">Kayley Practicing with Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <!-- Collapsible button -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+
+          <!-- The links of our navbar -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+
+          <!-- a Dropdown menu -->
+          <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">Bootstrap</a>
+              <a class="dropdown-item" href="https://kayleybannister.github.io/basic-portfolio/" target="_blank">Kayley's GitHub</a>
+              <a class="dropdown-item" href="https://www.linkedin.com/in/kayleybannister/" target="_blank">Kayley's LinkedIn</a>
+            </div>
+
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Jumbotron element -->
+    <div class="jumbotron" style="background-image: url(https://pbs.twimg.com/profile_banners/35581057/1533515747/1500x500); background-position: right;">
+
+      <!-- centered text -->
+      <h2 class="text-center"><strong class="text-white">Kayley Bannister</strong></h2>
+      <h3 class="text-center"><p class="text-white">Georgia Tech Coding Boot Camp Student</p></h3>
+      <h4 class="text-center"><p class="text-white">Graduating November 2019</p></h4>
+
+      <!-- button with predefined style rules -->
+      <p class="text-center">
+        <a class="btn btn-primary btn-lg" href="mailto:kayley.bannister@gmail.com" role="button">
+          <span class="fa fa-envelope"></span> Email Me</a>
+      </p>
+    </div>
+
+    <!-- a Bootstrap row with columns -->
+    <div class="row">
+
+      <!-- At large+ screens takes up half width (6/12) -->
+      <div class="col-lg-6">
+
+        <!-- centered image with thumbnail rules -->
+        <img class="img thumbnail center-block" src="https://marketingweek.imgix.net/content/uploads/2017/05/12103909/Coding-body-image-.jpg?auto=compress,format,&crop=faces,entropy,edges&fit=crop&q=60&w=750&h=460" alt="CodingPic" width="50%">
+        <p>Kayley began her journey in Web Development on May 18, 2019. While she is very nervous about this program, she is excited about the skills she will learn and the opportunity for a career in web development.</p>
+      </div>
+
+      <!-- At large+ screens takes up half width (6/12) -->
+      <div class="col-lg-6">
+        <img class="img thumbnail center-block" src="https://pbs.twimg.com/profile_images/1026265537389707264/yi6ClGT1_400x400.jpg" alt="KayleyAndEmily" height="35%">
+        <p> Kayley grew up in the small town of Lincolnton, GA. She has two dogs, Reagan and Tyson. In her free time, Kayley enjoys
+          spending time with family, friends, her wonderful fiancee, and being outside on her golf cart or boat.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
